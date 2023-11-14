@@ -1,0 +1,14 @@
+h1{
+    background-color: gray;
+}
+h2{
+    border-bottom: 5 cm;
+    border-style: solid;
+}
+body{
+    background-color: azure;
+}
+table{
+    border-style: solid;
+    border-right: 5 cm;
+}
