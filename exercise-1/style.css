@@ -1,0 +1,52 @@
+h1{
+    background-color: gray;
+}
+h2{
+    border-bottom: 5 cm;
+    border-style: solid;
+}
+body{
+    background-color: azure;
+}
+table{
+    border-style: solid;
+    border-right: 5 cm;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(165, 188, 96)10);
+  }
+  
+  li {
+    float: left;
+    background-color: #111;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(186, 52, 52);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #4a4949;
+  }
+  nav{
+    background-color: #111;
+  }
+  p{
+    text-align: justify;
+  }
+  video{
+    width: 200px;
+    height: 300px;
+  }
+  .selected{
+    background-color: #4a4949;
+  }

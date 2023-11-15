@@ -1,0 +1,30 @@
+h1{
+    background-color: rgb(43, 54, 64);
+    color: blanchedalmond;
+    border-radius: 8cm;
+}
+h2{
+    border-bottom: 5 cm;
+    border-style: solid;
+    background-color: bisque;
+    border-radius: 5cm;
+}
+body{
+    
+}
+table{
+    border-style: solid;
+    border-right: 5 cm;
+    border-radius: cm;
+}
+video{
+    width: 220px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid;
+    border-spacing: 50px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
