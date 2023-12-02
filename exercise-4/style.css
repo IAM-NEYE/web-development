@@ -1,3 +1,9 @@
+:root{
+  --nav-color: #fff;
+  --nav-bg-color: #fbff00;
+  --nav-bg-color-hover: #b0b300;
+  
+}
 h1{
     background-color: gray;
 }
@@ -6,7 +12,7 @@ h2{
     border-style: solid;
 }
 body{
-    background-color: azure;
+    background-color: white;
 }
 table{
     border-style: solid;
@@ -17,17 +23,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(165, 188, 96)10);
   }
   
   li {
     float: left;
-    background-color: #111;
+    background-color: var(--nav-bg-color);
   }
   
   li a {
     display: block;
-    color: rgb(186, 52, 52);
+    color: var(--nav-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,10 +40,10 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #4a4949;
+    background-color: var(--nav-bg-color-hover);
   }
   nav{
-    background-color: #111;
+    background-color: var(--nav-bg-color);
   }
   p{
     text-align: justify;
